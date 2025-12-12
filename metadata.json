@@ -1,0 +1,7 @@
+{
+  "name": "Sanatan Vedic Jyotish",
+  "description": "A comprehensive, offline-capable Vedic Astrology application offering Kundali generation, Gun Milan (Matchmaking), and Numerology with a spiritual Sanatan UI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

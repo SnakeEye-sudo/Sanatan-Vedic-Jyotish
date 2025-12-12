@@ -1,11 +1,22 @@
-<div align="center">
+# Sanatan Vedic Jyotish
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A pure client-side React Application for Vedic Astrology calculations.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Offline Capable**: No external APIs used. All calculations are performed using deterministic algorithms within the browser.
+- **Language Support**: English, Hindi, and Sanskrit.
+- **Kundali**: Generates a simulated North Indian (Diamond) Chart based on inputs.
+- **Matchmaking (Gun Milan)**: Calculates compatibility score out of 36.
+- **Numerology**: Calculates Mulank, Bhagyank, and Namank.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tech Stack
+- React 18
+- TypeScript
+- Tailwind CSS
+- Lucide React (Icons)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Developer
+Developed by **Er. Sangam Krishna**
 
-</div>
+## Note
+The astrological calculations in this version are *simulations* for demonstration purposes. While they use real astronomical logic concepts (e.g., Sun moving 1 sign/month), they do not use a full Swiss Ephemeris library to keep the application lightweight and single-file logic oriented.

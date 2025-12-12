@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanatan Vedic Jyotish</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Martel:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              saffron: {
+                50: '#fff7ed',
+                100: '#ffedd5',
+                200: '#fed7aa',
+                300: '#fdba74',
+                400: '#fb923c',
+                500: '#f97316',
+                600: '#ea580c', // Primary Saffron
+                700: '#c2410c',
+                800: '#9a3412', // Deep Ochre
+                900: '#7c2d12',
+              },
+              gold: {
+                400: '#fbbf24',
+                500: '#f59e0b',
+                600: '#d97706', // Antique Gold
+              }
+            },
+            fontFamily: {
+              sans: ['Martel', 'serif'], // Using a readable serif for body to give bookish feel
+              display: ['Cinzel', 'serif'], // Epic headings
+            },
+            backgroundImage: {
+              'mandala': "url('https://www.transparenttextures.com/patterns/arabesque.png')",
+            },
+            animation: {
+              'spin-slow': 'spin 12s linear infinite',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #fff7ed;
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ea580c' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+      .scroll-hidden::-webkit-scrollbar {
+          display: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/client": "https://esm.sh/react-dom@^19.2.3/client",
+    "jspdf": "https://esm.sh/jspdf@2.5.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
